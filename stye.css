@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-size: cover;
+}
+#container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 50px;
+    justify-content: center;
+    background-color: rgba(247, 244, 244, 0.5);
+    height: 350px;
+    width: 750px; 
+    margin-left: 22.5%;
+}
+/* #background{
+    margin-left: 22.5%;
+} */
+
+header{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 22.5%;
+    background-color: rgba(206, 235, 141, 0.692);
+    width: 810px;
+}
+
+#hero p{
+  text-align: center;
+  color: aqua; 
+  margin-top: 5px;
+}
+#villain p{
+    text-align: center;
+    color: aqua;   
+    margin-top: 5px;
+}
+
+#hero{
+    margin-right: 50px;
+}
+
+#hero img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid blue;
+}
+
+#villain img{
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    border: 2px solid burlywood;
+}
+
+#hero td{
+    color: greenyellow;
+    text-align: center;
+    transition: width 1s ease;
+}
+#t:hover
+{
+    scale: 1.2;
+}
+
+#villain td{
+    color: greenyellow;
+    text-align: center;
+    transition:width 1s ease;
+}
+#villain td:hover{
+    
+        scale: 1.2;
+    
+}
